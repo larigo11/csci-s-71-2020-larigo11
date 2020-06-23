@@ -2,11 +2,11 @@
  * @author  Eric Laribee, erl235@g.harvard.edu, elarib01@gmail.com
  * @since   06/22/2020 <p>
  *
- * class:   CSCI S-71 HW 1 <br>
+ * class:   CSCI S-71 Assignment 1 <br>
  * desc:    Class definition for a simple Hello World application
  *
  *****************************************************************************/
-public class Main {
+public class HelloWorld {
 
     /**
      * main - The application entry.
@@ -17,7 +17,7 @@ public class Main {
      * @param args Array of command line argument strings
      */
     public static void main(String[] args) {
-        System.out.print("Hello");
+        System.out.print("Hello,");
         for (String s : args) {
             System.out.print(' ' + s);
         }
