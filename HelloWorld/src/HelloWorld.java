@@ -17,7 +17,10 @@ public class HelloWorld {
      * @param args Array of command line argument strings
      */
     public static void main(String[] args) {
-        System.out.print("Hello,");
+        System.out.print("Hello");
+        if (args.length > 0) {
+            System.out.print(',');
+        }
         for (String s : args) {
             System.out.print(' ' + s);
         }
